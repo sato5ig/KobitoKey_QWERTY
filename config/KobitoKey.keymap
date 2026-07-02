@@ -22,13 +22,13 @@
 
         combo_esc {
             timeout-ms = <50>;
-            key-positions = <0 1>;
-            bindings = <&kp ESC>;
+            key-positions = <3 2>;
+            bindings = <&kp TAB>;
         };
 
         combo_tab {
             timeout-ms = <50>;
-            key-positions = <10 11>;
+            key-positions = <3 4>;
             bindings = <&kp TAB>;
         };
     };
@@ -68,10 +68,10 @@
         layer3 {
             label = "MOUSE";
             bindings = <
-&trans            &kp LC(TAB)       &kp LC(W)         &kp LC(LS(TAB))    &trans             &trans  &mkp MB1      &mkp MB3  &mkp MB2       &trans
-&trans            &trans            &kp LC(T)         &trans             &trans             &trans  &kp LA(LEFT)  &trans    &kp LA(RIGHT)  &trans
-&kp LG(LC(LEFT))  &kp LS(LG(LEFT))  &kp LG(UP_ARROW)  &kp LS(LG(RIGHT))  &kp LG(LC(RIGHT))  &trans  &trans        &trans    &trans         &trans
-&kp LANGUAGE_5    &trans            &kp LCMD          &kp LALT           &to 0              &trans  &trans        &trans    &to 0          &kp RALT
+&trans            &kp LC(TAB)       &kp LC(W)         &kp LC(LS(TAB))    &trans             &trans  &mkp MB1      &mkp MB3         &mkp MB2       &trans
+&trans            &kp LC(C)         &kp LC(T)         &kp LC(V)          &kp LG(TAB)        &trans  &kp LA(LEFT)  &trans           &kp LA(RIGHT)  &trans
+&kp LG(LC(LEFT))  &kp LS(LG(LEFT))  &kp LG(UP_ARROW)  &kp LS(LG(RIGHT))  &kp LG(LC(RIGHT))  &trans  &trans        &trans           &trans         &trans
+&kp LANGUAGE_5    &trans            &kp LCMD          &kp LCTRL          &to 0              &trans  &trans        &kp RIGHT_SHIFT  &to 0          &kp RALT
             >;
         };
 
