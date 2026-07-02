@@ -58,10 +58,10 @@
         layer2 {
             label = "FUNCTION";
             bindings = <
-&trans    &kp PAGE_UP       &kp UP_ARROW      &kp PAGE_DOWN      &trans   &kp LS(MINUS)    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp MINUS
-&kp HOME  &kp LEFT          &kp DOWN          &kp RIGHT          &kp END  &trans           &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp LS(SEMI)
-&trans    &kp LG(LC(LEFT))  &kp LG(UP_ARROW)  &kp LC(LG(RIGHT))  &trans   &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp LS(SINGLE_QUOTE)
-&trans    &trans            &trans            &trans             &trans   &kp BACKSPACE    &kp ENTER        &mo 4            &trans           &trans
+&trans            &kp PAGE_UP       &kp UP_ARROW      &kp PAGE_DOWN      &trans             &kp LS(MINUS)    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp MINUS
+&kp HOME          &kp LEFT          &kp DOWN          &kp RIGHT          &kp END            &trans           &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp LS(SEMI)
+&kp LC(LG(LEFT))  &kp LG(LS(LEFT))  &kp LG(UP_ARROW)  &kp LG(LS(RIGHT))  &kp LC(LG(RIGHT))  &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp LS(SINGLE_QUOTE)
+&trans            &trans            &trans            &trans             &trans             &kp BACKSPACE    &kp ENTER        &mo 4            &trans           &trans
             >;
         };
 
