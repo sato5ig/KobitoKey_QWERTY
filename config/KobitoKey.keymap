@@ -78,7 +78,7 @@
             label = "MOUSE";
             bindings = <
 &trans            &kp LC(TAB)       &kp LC(W)         &kp LC(LS(TAB))    &trans             &trans  &mkp MB1      &mkp MB3         &mkp MB2       &trans
-&trans            &kp LC(C)         &kp LC(T)         &kp LC(V)          &kp LG(TAB)        &trans  &kp LA(LEFT)  &trans           &kp LA(RIGHT)  &trans
+&kp HOME          &kp LC(C)         &kp LC(T)         &kp LC(V)          &kp END            &trans  &kp LA(LEFT)  &kp LG(TAB)      &kp LA(RIGHT)  &trans
 &kp LG(LC(LEFT))  &kp LS(LG(LEFT))  &kp LG(UP_ARROW)  &kp LS(LG(RIGHT))  &kp LG(LC(RIGHT))  &trans  &trans        &trans           &trans         &trans
 &trans            &trans            &kp LCMD          &kp LCTRL          &to 0              &trans  &trans        &kp RIGHT_SHIFT  &to 0          &kp RALT
             >;
