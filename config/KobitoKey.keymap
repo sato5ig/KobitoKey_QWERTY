@@ -38,10 +38,10 @@
 
         default_layer {
             bindings = <
-&kp Q      &kp W         &kp E  &kp R            &kp T               &kp Y     &kp U               &kp I      &kp O     &mt MINUS P
-&kp A      &kp S         &kp D  &kp F            &kp G               &kp H     &kp J               &kp K      &kp L     &mt SEMI SINGLE_QUOTE
-&kp Z      &kp X         &kp C  &kp V            &kp B               &kp N     &kp M               &kp COMMA  &kp DOT   &kp SLASH
-&kp RCTRL  &kp LEFT_GUI  &mo 2  &mt LCTRL SPACE  &lt 1 LEFT_BRACKET  &kp BSPC  &mt LEFT_ALT ENTER  &kp RSHFT  &kp INT3  &kp INT1
+&kp Q           &kp W         &kp E  &kp R            &kp T               &kp Y     &kp U               &kp I      &kp O     &mt MINUS P
+&kp A           &kp S         &kp D  &kp F            &kp G               &kp H     &kp J               &kp K      &kp L     &mt SEMI SINGLE_QUOTE
+&kp Z           &kp X         &kp C  &kp V            &kp B               &kp N     &kp M               &kp COMMA  &kp DOT   &kp SLASH
+&kp LANGUAGE_5  &kp LEFT_GUI  &mo 2  &mt LCTRL SPACE  &lt 1 LEFT_BRACKET  &kp BSPC  &mt LEFT_ALT ENTER  &kp RSHFT  &kp INT3  &kp INT1
             >;
         };
 
@@ -51,7 +51,7 @@
 &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)  &kp LS(NUMBER_6)   &kp LS(NUMBER_7)  &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp MINUS
 &kp NUMBER_1      &kp NUMBER_2      &kp NUMBER_3      &kp NUMBER_4      &kp NUMBER_5      &kp NUMBER_6       &kp NUMBER_7      &kp NUMBER_8      &kp NUMBER_9      &kp NUMBER_0
 &trans            &trans            &trans            &trans            &trans            &kp RIGHT_BRACKET  &kp NON_US_HASH   &kp COMMA         &kp PERIOD        &kp SLASH
-&trans            &trans            &trans            &kp SPACE         &trans            &kp BACKSPACE      &kp ENTER         &kp LEFT_SHIFT    &kp INT3          &kp INT1
+&kp LANG5         &trans            &trans            &kp SPACE         &trans            &kp BACKSPACE      &kp ENTER         &kp LEFT_SHIFT    &kp INT3          &kp INT1
             >;
         };
 
@@ -71,7 +71,7 @@
 &trans            &kp LC(TAB)       &kp LC(W)         &kp LC(LS(TAB))    &trans             &trans  &mkp MB1      &mkp MB3  &mkp MB2       &trans
 &trans            &trans            &kp LC(T)         &trans             &trans             &trans  &kp LA(LEFT)  &trans    &kp LA(RIGHT)  &trans
 &kp LG(LC(LEFT))  &kp LS(LG(LEFT))  &kp LG(UP_ARROW)  &kp LS(LG(RIGHT))  &kp LG(LC(RIGHT))  &trans  &trans        &trans    &trans         &trans
-&kp LSHFT         &trans            &kp LCMD          &kp LALT           &to 0              &trans  &trans        &trans    &to 0          &kp RALT
+&kp LANGUAGE_5    &trans            &kp LCMD          &kp LALT           &to 0              &trans  &trans        &trans    &to 0          &kp RALT
             >;
         };
 
