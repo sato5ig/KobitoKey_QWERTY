@@ -47,10 +47,10 @@
 
         default_layer {
             bindings = <
-&kp Q                   &kp W         &kp E  &kp R            &kp T               &kp Y     &kp U                 &kp I          &kp O     &mt MINUS P
-&kp A                   &kp S         &kp D  &kp F            &kp G               &kp H     &kp J                 &kp K          &kp L     &mt SEMI SINGLE_QUOTE
-&kp Z                   &kp X         &kp C  &kp V            &kp B               &kp N     &kp M                 &kp COMMA      &kp DOT   &kp SLASH
-&mt LEFT_SHIFT LG(TAB)  &kp LEFT_GUI  &mo 2  &mt LCTRL SPACE  &lt 1 LEFT_BRACKET  &kp BSPC  &mt LEFT_SHIFT ENTER  &kp RIGHT_ALT  &kp INT3  &kp INT1
+&kp Q                   &kp W         &kp E  &kp R            &kp T               &kp Y     &kp U                 &kp I      &kp O     &kp P
+&kp A                   &kp S         &kp D  &kp F            &kp G               &kp H     &kp J                 &kp K      &kp L     &mt SEMI SINGLE_QUOTE
+&kp Z                   &kp X         &kp C  &kp V            &kp B               &kp N     &kp M                 &kp COMMA  &kp DOT   &kp SLASH
+&mt LEFT_SHIFT LG(TAB)  &kp LEFT_GUI  &mo 2  &mt LCTRL SPACE  &lt 1 LEFT_BRACKET  &kp BSPC  &mt LEFT_SHIFT ENTER  &kp MINUS  &kp INT3  &kp INT1
             >;
         };
 
@@ -60,7 +60,7 @@
 &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)  &kp LS(NUMBER_6)   &kp LS(NUMBER_7)  &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp MINUS
 &kp NUMBER_1      &kp NUMBER_2      &kp NUMBER_3      &kp NUMBER_4      &kp NUMBER_5      &kp NUMBER_6       &kp NUMBER_7      &kp NUMBER_8      &kp NUMBER_9      &kp NUMBER_0
 &trans            &trans            &trans            &trans            &trans            &kp RIGHT_BRACKET  &kp NON_US_HASH   &kp COMMA         &kp PERIOD        &kp SLASH
-&trans            &trans            &trans            &kp SPACE         &trans            &kp BACKSPACE      &kp ENTER         &kp LEFT_SHIFT    &kp INT3          &kp INT1
+&trans            &trans            &trans            &kp SPACE         &trans            &kp BACKSPACE      &kp ENTER         &kp MINUS         &kp INT3          &kp INT1
             >;
         };
 
@@ -86,10 +86,10 @@
 
         layer_4 {
             bindings = <
-&bt BT_CLR  &bt BT_CLR_ALL  &trans  &trans  &trans  &trans  &trans        &trans        &trans        &trans
-&trans      &trans          &trans  &trans  &trans  &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans
-&trans      &trans          &trans  &trans  &trans  &trans  &bt BT_SEL 3  &bt BT_SEL 4  &trans        &trans
-&trans      &trans          &trans  &trans  &trans  &trans  &trans        &trans        &trans        &trans
+&bt BT_CLR  &bt BT_CLR_ALL  &trans         &trans         &trans  &trans  &trans        &trans        &trans        &trans
+&trans      &bt BT_DISC 0   &bt BT_DISC 1  &bt BT_DISC 2  &trans  &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans
+&trans      &bt BT_DISC 3   &bt BT_DISC 4  &trans         &trans  &trans  &bt BT_SEL 3  &bt BT_SEL 4  &trans        &trans
+&trans      &trans          &trans         &trans         &trans  &trans  &trans        &trans        &trans        &trans
             >;
         };
     };
