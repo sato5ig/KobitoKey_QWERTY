@@ -45,6 +45,5 @@
     device = <&tb_right>;
     input-processors =
         <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,
-        <&xy_scale_transform 100 120>,          // Y軸を少し強める
-        <&xy_diagonal_boost>;                   // 斜め方向の補正
+        <&zip_y_scaler 120 100>;
 };
